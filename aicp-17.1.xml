@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!-- PH-1 -->
+  <project name="LineageOS/android_kernel_essential_msm8998" path="kernel/essential/msm8998" remote="github" revision="lineage-18.1" />
+  <project name="minrei310/android_device_essential_mata" path="device/essential/mata" remote="github" revision="s12.1" />
+ <!-- xz2c -->
+  <project name="minrei310/android_device_sony_xz2c" path="device/sony/xz2c" remote="github" revision="s12.1" />
+  <project name="minrei310/android_device_sony_tama-common" path="device/sony/tama-common" remote="github" revision="s12.1" />
+  <project name="LineageOS/android_kernel_sony_sdm845" path="kernel/sony/sdm845" remote="github" revision="lineage-19.1" />
+ <!-- xz2 -->
+  <project name="minrei310/android_device_sony_akari" path="device/sony/akari" remote="github" revision="s12.1" />
+ <!-- xa2 -->
+  <project path="device/sony/pioneer" remote="github" name="minrei310/android_device_sony_pioneer" revision="s12.1"/>
+  <project path="device/sony/nile-common" remote="github" name="minrei310/android_device_sony_nile-common" revision="s12.1"/>
+  <project path="kernel/sony/sdm660" remote="github" name="LineageOS/android_kernel_sony_sdm660" revision="lineage-19.1"/>
+  <project path="hardware/sony/macaddrsetup" remote="github" name="LineageOS/android_hardware_sony_macaddrsetup" revision="lineage-19.1"/>
+  <project path="hardware/sony/simdetect" remote="github" name="LineageOS/android_hardware_sony_simdetect" revision="lineage-19.1"/>
+  <project path="hardware/sony/SonyOpenTelephony" remote="github" name="LineageOS/android_hardware_sony_SonyOpenTelephony" revision="lineage-19.1"/>
+ <!-- blueline -->
+  <project path="device/google/blueline" remote="github" name="minrei310/android_device_google_blueline" revision="s12.1"/>
+  <project path="device/google/crosshatch" remote="github" name="minrei310/android_device_google_crosshatch" revision="s12.1"/>
+  <project path="kernel/google/msm-4.9" remote="github" name="LineageOS/android_kernel_google_msm-4.9" revision="lineage-19.1" />
+  <project path="packages/apps/ElmyraService" remote="github" name="LineageOS/android_packages_apps_ElmyraService" revision="lineage-19.1"/>
+  <project path="vendor/google" remote="github" name="TheMuppets/proprietary_vendor_google" revision="lineage-19.1"/>
+ <!-- pdx201 -->
+  <project path="device/sony/pdx201" remote="github" name="3zore/android_device_sony_pdx201" revision="builtin-s12.1"/>
+  <project path="vendor/sony/pdx201" remote="github" name="lineageos-on-pdx201/proprietary_vendor_sony_pdx201" revision="lineage-19.1" />
+  <project path="kernel/sony/sm6125" remote="github" name="lineageos-on-pdx201/android_kernel_sony_sm6125" revision="lineage-19.1" />
+  <project path="sony/hardware" remote="github" name="lineageos-on-pdx201/android_hardware_sony" revision="lineage-19.1" />
+</manifest>
